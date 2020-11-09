@@ -5,6 +5,29 @@ const progress = document.getElementById('progress');
 const timestamp = document.getElementById('timestamp');
 
 // play & pause viedo
+function toggleVideoStatus() {
+  return true;
+}
+
+// update play/pause icon
+function updatePlayIcon() {
+  return true;
+}
+
+// update progress & timestamp
+function updateProgress() {
+  return true;
+}
+
+// set video time to progress
+function setVideoProgress() {
+  return true;
+}
+
+// stop video
+function stopVideo() {
+  return true;
+}
 
 // event listener
 video.addEventListener('click', toggleVideoStatus);
